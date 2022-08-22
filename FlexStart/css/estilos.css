@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+header .contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+header .contenedor .bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .contenedor .bar .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .contenedor .bar .logo h3 {
+    margin-left: 5px;
+    color: rgb(39, 77, 204);
+}
+
+header .contenedor .bar nav {}
+
+header .contenedor .bar nav ul {
+    list-style: none;
+}
+
+header .contenedor .bar nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(49, 49, 90);
+}
+
+header .contenedor .bar nav ul li .selected {
+    color: rgb(39, 77, 204);
+}
+
+header .contenedor .bar nav ul li a {
+    text-decoration: none;
+    color: rgb(49, 49, 90);
+}
+
+header .contenedor .bar nav ul li a:hover {
+    color: rgb(39, 77, 204);
+}
+
+header .contenedor .bar nav ul li button {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: none;
+    background: rgb(39, 77, 204);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .contenedor .presentacion {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .contenedor .presentacion .box-1 {
+    width: 50%;
+}
+
+header .contenedor .presentacion .box-1 h3 {
+    color: rgb(49, 49, 90);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+header .contenedor .presentacion .box-1 p {
+    margin-top: 10px;
+    color: rgb(83, 83, 83);
+    font-weight: 600;
+}
+
+header .contenedor .presentacion .box-1 button {
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: none;
+    background: rgb(39, 77, 204);
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .contenedor .presentacion .box-2 {
+    width: 50%;
+}
+
+header .contenedor .presentacion .box-2 img {
+    width: 500px;
+}
+
+main .title {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(49, 49, 90);
+}
+
+main .description {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(49, 49, 90);
+    font-weight: 700;
+}
+
+main .lista-metas {
+    width: 100%;
+}
+
+main .lista-metas .contenedor {
+    width: 90%;
+}
+
+main .lista-metas .contenedor .metas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .lista-metas .contenedor .metas .meta {
+    width: 30%;
+    
+}
+
+main .lista-metas .contenedor .metas .meta {
+    width: 100%;
+}
+
+
+main .lista-metas {
+    width: 100%;
+    
+}
+
+main .lista-pagos .contenedor {
+    width: 90%;
+    
+}
+
+main .lista-pagos .contenedor .pagos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     
+}
+
+main .lista-pagos  .contenedor .pagos .pago {
+    width: 20%;
+    box-shadow: 60px -16px rgb(233, 236, 236);
+
+}
